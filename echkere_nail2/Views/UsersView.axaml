@@ -1,0 +1,38 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="echkere_nail2.UsersView"
+			 x:DataType="vm:MainWindowViewModel"
+			xmlns:vm="using:echkere_nail2.ViewModels">
+	
+	<Grid RowDefinitions="*, *, Auto">
+
+		<DataGrid IsReadOnly="True"
+				  Name="MainDataGridUsers"
+				  Grid.Row="0"
+				  ItemsSource="{Binding Users}"
+				  DoubleTapped="DataGrid_DoubleTapped">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="Full Name" Binding="{Binding Name}" />
+				<DataGridTextColumn Header="Phone Number" Binding="{Binding PhoneNumber}" />
+				<DataGridTextColumn Header="Description" Binding="{Binding Description}" />
+			</DataGrid.Columns>
+		</DataGrid>
+
+		<ContentControl Name="MainContentControl"
+						Grid.Row="1" />
+
+		<Button Content="Добавить"
+				Grid.Row="2"
+				Click="Button_Click" />
+
+		<Button Content="Удалить"
+            Grid.Row="3"
+            Click="Delete_Click"
+				HorizontalAlignment="Right"
+				Grid.Column="1"/>
+
+	</Grid>
+</UserControl>

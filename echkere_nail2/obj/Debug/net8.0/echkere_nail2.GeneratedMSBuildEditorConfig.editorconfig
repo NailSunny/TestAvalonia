@@ -1,0 +1,46 @@
+is_global = true
+build_property.AvaloniaNameGeneratorIsEnabled = true
+build_property.AvaloniaNameGeneratorBehavior = InitializeComponent
+build_property.AvaloniaNameGeneratorDefaultFieldModifier = internal
+build_property.AvaloniaNameGeneratorFilterByPath = *
+build_property.AvaloniaNameGeneratorFilterByNamespace = *
+build_property.AvaloniaNameGeneratorViewFileNamingStrategy = NamespaceAndClassName
+build_property.AvaloniaNameGeneratorAttachDevTools = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = echkere_nail2
+build_property.ProjectDir = C:\Users\gaifu\OneDrive\Рабочий стол\Учебка 4 курс 1 сем\echkere_nail2\TestAvalonia\echkere_nail2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/gaifu/OneDrive/Рабочий стол/Учебка 4 курс 1 сем/echkere_nail2/TestAvalonia/echkere_nail2/App.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/gaifu/OneDrive/Рабочий стол/Учебка 4 курс 1 сем/echkere_nail2/TestAvalonia/echkere_nail2/Views/BasketView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/gaifu/OneDrive/Рабочий стол/Учебка 4 курс 1 сем/echkere_nail2/TestAvalonia/echkere_nail2/Views/CreateandChangeBasket.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/gaifu/OneDrive/Рабочий стол/Учебка 4 курс 1 сем/echkere_nail2/TestAvalonia/echkere_nail2/Views/CreateandchangeItem.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/gaifu/OneDrive/Рабочий стол/Учебка 4 курс 1 сем/echkere_nail2/TestAvalonia/echkere_nail2/Views/CreateandChangeUser.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/gaifu/OneDrive/Рабочий стол/Учебка 4 курс 1 сем/echkere_nail2/TestAvalonia/echkere_nail2/Views/ItemsView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/gaifu/OneDrive/Рабочий стол/Учебка 4 курс 1 сем/echkere_nail2/TestAvalonia/echkere_nail2/Views/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/gaifu/OneDrive/Рабочий стол/Учебка 4 курс 1 сем/echkere_nail2/TestAvalonia/echkere_nail2/Views/UsersView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

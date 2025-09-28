@@ -1,0 +1,42 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="echkere_nail2.CreateandChangeUser"
+		x:DataType="vm:MainWindowViewModel"
+		xmlns:vm="using:echkere_nail2.ViewModels"
+        Title="CreateandChangeUser">
+	
+	<Grid ColumnDefinitions="*, *" RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto, Auto">
+		<TextBlock Text="ФИО:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Margin="0,5"/>
+		<TextBox Grid.Row="1" Grid.Column="0" Name="FullNameText" Margin="0,0,5,10" Height="30"/>
+
+		<TextBlock Text="Номер телефона:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Margin="0,5"/>
+		<TextBox Grid.Row="3" Grid.Column="0" Name="PhoneNumberText" Margin="0,0,5,10" Height="30"/>
+
+		<TextBlock Text="Описание:" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" Margin="0,5"/>
+		<TextBox Grid.Row="5" Grid.Column="0" Name="DescriptionText" Margin="0,0,5,10" Height="60" AcceptsReturn="True" TextWrapping="Wrap"/>
+
+		<TextBlock Text="Логин:" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Margin="5"/>
+		<TextBox Grid.Row="1" Grid.Column="1" Name="LoginText" Margin="5,0,0,10" Height="30"/>
+
+		<TextBlock Text="Пароль:" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Margin="5"/>
+		<TextBox Grid.Row="3" Grid.Column="1" Name="PasswordText" Margin="5,0,0,10" Height="30"/>
+
+		<TextBlock Text="Роль:" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" Margin="5"/>
+		<ComboBox Grid.Row="5" Grid.Column="1" ItemsSource="{Binding Roles}" Name="RolesCombo" Margin="5,0,0,10" Height="30">
+			<ComboBox.ItemTemplate>
+				<DataTemplate>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock Text="{Binding IdRole}"/>
+						<TextBlock Text="."/>
+						<TextBlock Text="{Binding Name}"/>
+					</StackPanel>
+				</DataTemplate>
+			</ComboBox.ItemTemplate>
+		</ComboBox>
+
+		<Button Content="Сохранить" Grid.Row="6" Grid.Column="0" HorizontalAlignment="Left" Click="Button_Click"/>
+	</Grid>
+</Window>
